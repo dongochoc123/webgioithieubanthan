@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.id2{
+    width: 100%;
+    height: 1px;
+    margin: 10px 0px;
+    background-color: rgb(31, 107, 75);
+}
+.id3{
+    margin: 10px;
+    background-color: rgb(66, 114, 156);
+}
+.banner{
+    display: flex;
+    padding-top: 00px ;
+    
+    
+}
+.container{
+    width: 70%;
+    border: 1px solid black;
+    height: 1000px;
+}
+.container1{
+    width: 90%;
+    margin: auto;
+}
+.wapper{
+    width: 30%;
+    height: 1000px;
+    border: 1px solid black;
+    background-color: rgb(20, 163, 115);
+}
+.ten{
+   width: 80%;
+   margin: auto;
+}
+.ten h1{
+    margin: 10px;
+    color: rgb(0, 117, 78);
+}
+.ten p{
+margin: 2px;
+
+}
+.muctieu{
+    padding-top: 20px;
+}
+.muctieu p
+.tomtat p{
+    text-indent: 1.5em;
+}
+#id1 {
+    text-indent: 1.5em;
+}
+.wapper1{
+    width: 80%;
+    margin: auto;
+}
+.logo{
+    text-align: center;
+    margin: 20px;
+    
+}
+     
+.logo img{
+    border-radius: 50%;
+    border: 5px solid rebeccapurple;
+    height: 200px;
+    width: 200px;
+    animation: borderColor 0.5s infinite;
+     -webkit-animation: borderColor 5s infinite;
+     -moz-animation: borderColor 5s infinite;
+     -o-animation: borderColor 0.5s infinite
+} 
+@keyframes borderColor {
+    0% {
+        border-color: brown;
+    }
+    25% {
+        border-color: blue;
+    }
+    50% {
+        border-color: rgb(34, 250, 88);
+    }
+    75% {
+        border-color: firebrick;
+    }
+    100% {
+        border-color: darkorange;
+    }
+}
+.thongtin{
+color: aliceblue;
+}
+.thongtin img{
+height: 30px;
+width: 30px;
+margin: -5px 0px;
+padding: 0px 10px;
+}
+
+.thongtin p{
+font-size: 25px;
+
+}
+@media only screen and (max-width: 1000px) {
+    .logo img{
+        width: 100px;
+        height: 100px;
+    }
+    .thongtin p{
+        font-size: 18px;
+        
+    }
+  }
